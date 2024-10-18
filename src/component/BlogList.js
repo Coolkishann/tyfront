@@ -28,6 +28,7 @@ const BlogList = ({ allBlogs, setAllBlogs, setSelectedBlog }) => {
               <option value="INS">INS</option>
               <option value="SQA">SQA</option>
               <option value="CF">CF</option>
+              <option value="STAQ">STAQ</option>
               <option value="INS2">INS2</option>
         </select>
       </div>
