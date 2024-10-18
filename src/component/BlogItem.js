@@ -93,7 +93,7 @@ const BlogItem = ({ selectedBlog, setSelectedBlog, allBlogs, setAllBlogs }) => {
               <option value="SQA">SQA</option>
               <option value="CF">CF</option>
               <option value="INS2">INS2</option>
-
+              <option value="STAQ">STAQ</option>
             </select>
             <label htmlFor="blogHead" className="block text-sm font-medium text-gray-700 mb-2">Practical Aim:</label>
             <input
