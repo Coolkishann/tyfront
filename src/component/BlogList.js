@@ -23,13 +23,10 @@ const BlogList = ({ allBlogs, setAllBlogs, setSelectedBlog }) => {
           className="p-2 border border-gray-300 rounded mb-4"
         >
           <option value="">Select Subject: All</option>
-          <option value="Ai">Ai</option>
-              <option value="GP">GP</option>
-              <option value="INS">INS</option>
-              <option value="SQA">SQA</option>
-              <option value="CF">CF</option>
-              <option value="STAQ">STAQ</option>
-              <option value="INS2">INS2</option>
+              <option value="DS">DS</option>
+              <option value="CCWS">CCWS</option>
+              <option value="DMDW">DMDW</option>
+              <option value="WSN">WSN</option>
         </select>
       </div>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
