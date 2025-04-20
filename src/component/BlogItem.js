@@ -87,13 +87,10 @@ const BlogItem = ({ selectedBlog, setSelectedBlog, allBlogs, setAllBlogs }) => {
               required
             >
               <option value="">Select Subject</option>
-              <option value="Ai">Ai</option>
-              <option value="GP">GP</option>
-              <option value="INS">INS</option>
-              <option value="SQA">SQA</option>
-              <option value="CF">CF</option>
-              <option value="INS2">INS2</option>
-              <option value="STAQ">STAQ</option>
+              <option value="DS">DS</option>
+              <option value="CCWS">CCWS</option>
+              <option value="DMDW">DMDW</option>
+              <option value="WSN">WSN</option>
             </select>
             <label htmlFor="blogHead" className="block text-sm font-medium text-gray-700 mb-2">Practical Aim:</label>
             <input
